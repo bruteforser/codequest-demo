@@ -9,10 +9,19 @@ body {
   background: rgb(244, 244, 244);
   color: rgb(10, 10, 10);
   font-family: "Mozilla Text", sans-serif;
+  margin: auto var(--space-lg);
 }
 
 fieldset {
   margin: 20px 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input:focus {
+  outline: 3px solid yellow;
 }
 
 #ratings-wrapper {
@@ -26,4 +35,5 @@ fieldset {
 
 input[type="submit"] {
   font-size: 1.25em;
+  margin-left: var(--space-lg);
 }
