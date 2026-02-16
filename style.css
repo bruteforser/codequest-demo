@@ -17,11 +17,13 @@ fieldset {
 }
 
 label {
-  font-weight: bold;
+  font-weight: 600;
 }
 
-input:focus {
-  outline: 3px solid yellow;
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 1px solid yellow;
 }
 
 #ratings-wrapper {
