@@ -9,9 +9,19 @@
 body {
   min-height: 100vh;
   background: rgb(244, 244, 244);
-  color: rgb(10, 10, 10);
+  color: rgb(20, 20, 20);
   font-family: "Mozilla Text", sans-serif;
   margin: auto var(--space-xlg);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > h1,
+form > p {
+  margin-left: var(--space-md)
 }
 
 .form-row {
@@ -23,6 +33,7 @@ body {
 
 fieldset {
   margin: var(--space-lg) var(--space-md);
+  border: 2px inset rgba(1, 1, 1, 0.25);
 }
 
 label {
@@ -44,16 +55,26 @@ select:focus {
   margin: auto var(--space-md);
 }
 
-input[type="submit"] {
+#submit-btn {
   font-size: 1.125em;
   margin-left: var(--space-lg);
+  margin-bottom: var(--space-md);
+  align-self: flex-start;
 }
 
 #personal-info input {
-  margin: var(--space-lg) var(--space-tiny);
+  margin: var(--space-md) var(--space-tiny);
   padding: 2px;
 }
 
 select {
   padding: 2px;
+}
+
+#recommendation > label {
+  margin-top: var(--space-lg);
+}
+
+button, input, select, textarea {
+  font: inherit;
 }
