@@ -109,3 +109,18 @@ body {
   align-items: center;
 }
 
+.hr-line {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: center; 
+    width: 100%;
+}
+
+.hr-line::before,
+.hr-line::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: #CBD5E1;
+}
