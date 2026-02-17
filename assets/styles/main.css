@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Mozilla Text", sans-serif;
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: #1E2E4E;
+}
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: #285A62;
+}
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: #FAC35A;
+}
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: #DEDEE3;
+}
+
