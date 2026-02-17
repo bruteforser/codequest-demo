@@ -61,10 +61,6 @@ body {
   color: var(--easy-white);
 }
 
-#nav-bar a:link {
-
-}
-
 #nav-bar a:visited {
   color: cya
 }
@@ -79,30 +75,37 @@ body {
   color: rgb(122, 255, 255);
 }
 
-#nav-bar a:active {
-
-}
-
 .accent-txt {
   color: var(--accent);
 }
 
 #hero-master-container {
+  position: relative;
   background: url(../../assets/images/hero-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 60vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-#hero-txt {
-  display: flex;
-  flex-direction: column;
-  justify-self: space-between;
+#hero-txt-content {
+  font-size: 1.75em;
+  line-height: 1.5;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-#hero-btns-ctn {
+#hero-img-container {
+  filter: hue-rotate(300deg);
+}
+
+#hero-content {
   display: flex;
-  gap: 6px;
+  
+  justify-content: center;
+  align-items: center;
 }
 
