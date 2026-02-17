@@ -16,6 +16,23 @@ body {
   font-family: "Mozilla Text", sans-serif;
 }
 
+#header {
+  display: flex;
+  background-color: var(--primary-bg);
+
+}
+
+#nav-bar {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+#nav-bar li {
+  list-style: none;
+  margin: auto 10px;
+}
+
 .accent-txt {
   color: var(--accent);
 }
