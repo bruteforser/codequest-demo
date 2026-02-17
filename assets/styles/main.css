@@ -171,3 +171,4 @@ section:not(#hero-section-ctn) {
 .card-container:not(img) {
   color: var(--primary-bg);
 }
+
