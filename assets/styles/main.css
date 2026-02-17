@@ -16,30 +16,7 @@ body {
   font-family: "Mozilla Text", sans-serif;
 }
 
-
-
 .accent-txt {
   color: var(--accent);
-}
-
-.one {
-  width: 100px;
-  height: 100px;
-  background-color: 
-}
-.two {
-  width: 100px;
-  height: 100px;
-  background-color: 
-}
-.three {
-  width: 100px;
-  height: 100px;
-  background-color: 
-}
-.four {
-  width: 100px;
-  height: 100px;
-  background-color: 
 }
 
