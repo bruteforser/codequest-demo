@@ -1,3 +1,10 @@
+:root {
+  --primary-bg: #1E2E4E;
+  --secondary-bg: #285A62;
+  --accent: #FAC35A;
+  --muted-bg: #DEDEE3;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   padding: 0;
@@ -9,24 +16,30 @@ body {
   font-family: "Mozilla Text", sans-serif;
 }
 
+
+
+.accent-txt {
+  color: var(--accent);
+}
+
 .one {
   width: 100px;
   height: 100px;
-  background-color: #1E2E4E;
+  background-color: 
 }
 .two {
   width: 100px;
   height: 100px;
-  background-color: #285A62;
+  background-color: 
 }
 .three {
   width: 100px;
   height: 100px;
-  background-color: #FAC35A;
+  background-color: 
 }
 .four {
   width: 100px;
   height: 100px;
-  background-color: #DEDEE3;
+  background-color: 
 }
 
