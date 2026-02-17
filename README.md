@@ -1,2 +1,2 @@
-# simple-form
-A practice project of a simple HTML form.
+# Code Quest
+A simple practice project for web dev.
