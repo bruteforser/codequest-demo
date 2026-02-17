@@ -131,7 +131,9 @@ section:not(#hero-section-ctn) {
   background-color: #cbd5e1;
 }
 
-
+.section-heading {
+  font-size: 40px;
+}
 
 .card-image {
   width: 150px;
@@ -152,9 +154,20 @@ section:not(#hero-section-ctn) {
 }
 
 .card-container {
+  background-color: var(--easy-white);
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.5);
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+
+.card-container:not(img) {
+  color: var(--primary-bg);
 }
